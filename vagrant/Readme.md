@@ -28,3 +28,14 @@ apt install nginx -y
 echo "==> Instalando Git"
 apt install git -y
 ```
+
+## 3 Hacemos un vagrant Up para iniciar la maquina virtual
+
+## 4 Creamos una carpeta llamada Pablo.test y entramos en ella .
+```
+mkdir -p /var/www/Pablo.test/html
+cd /var/www/paco.test/html
+
+```
+
+
