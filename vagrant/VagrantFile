@@ -1,6 +1,4 @@
-## 1 Creamos un VagrantFile le ponemos lo siguiente 
-'''
-    Vagrant.configure("2") do |config|
+Vagrant.configure("2") do |config|
 
 
   config.vm.box = "debian/bullseye64"
@@ -15,6 +13,3 @@
   config.vm.provision "shell", path: "provision.sh"
 
 end
-'''
-
-## 
